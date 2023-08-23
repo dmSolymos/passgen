@@ -1,0 +1,25 @@
+
+.checkboxes {
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upper,
+.lower,
+.number,
+.special {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+label {
+  font-size: 16px;
+  
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
